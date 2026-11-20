@@ -1,0 +1,74 @@
+{
+  "name": "ApexQuant — AI Football Predictions",
+  "short_name": "ApexQuant",
+  "description": "Live AI-powered football match predictions with 5-agent council analysis, real odds, and xG.",
+  "start_url": "/apexquant.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#05050a",
+  "theme_color": "#1d4ed8",
+  "id": "/apexquant.html",
+  "scope": "/",
+  "categories": ["sports", "football", "prediction"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231d4ed8'/%3E%3Cstop offset='100%25' stop-color='%2364748b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='120' fill='url(%23g)'/%3E%3Ccircle cx='256' cy='256' r='130' fill='none' stroke='%23ffffff' stroke-width='14'/%3E%3Cpath d='M170 256 Q256 140 342 256 Q256 372 170 256 Z' fill='%23f59e0b'/%3E%3Cpath d='M256 150 Q256 256 256 362' fill='none' stroke='%23ffffff' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231d4ed8'/%3E%3Cstop offset='100%25' stop-color='%2364748b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='120' fill='url(%23g)'/%3E%3Ccircle cx='256' cy='256' r='130' fill='none' stroke='%23ffffff' stroke-width='14'/%3E%3Cpath d='M170 256 Q256 140 342 256 Q256 372 170 256 Z' fill='%23f59e0b'/%3E%3Cpath d='M256 150 Q256 256 256 362' fill='none' stroke='%23ffffff' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231d4ed8'/%3E%3Cstop offset='100%25' stop-color='%2364748b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='120' fill='url(%23g)'/%3E%3Ccircle cx='256' cy='256' r='130' fill='none' stroke='%23ffffff' stroke-width='14'/%3E%3Cpath d='M170 256 Q256 140 342 256 Q256 372 170 256 Z' fill='%23f59e0b'/%3E%3Cpath d='M256 150 Q256 256 256 362' fill='none' stroke='%23ffffff' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "apple-touch-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Matches",
+      "short_name": "Today",
+      "description": "View today's football fixtures and predictions",
+      "url": "/?date=today",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%2305050a'/%3E%3Ccircle cx='256' cy='256' r='130' fill='none' stroke='%231d4ed8' stroke-width='14'/%3E%3C/svg%3E", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tomorrow's Matches",
+      "short_name": "Tomorrow",
+      "description": "View tomorrow's football fixtures and predictions",
+      "url": "/?date=tomorrow",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%2305050a'/%3E%3Ccircle cx='256' cy='256' r='130' fill='none' stroke='%23f59e0b' stroke-width='14'/%3E%3C/svg%3E", "sizes": "192x192" }]
+    },
+    {
+      "name": "Settings / API Key",
+      "short_name": "Settings",
+      "description": "Configure your API key and app settings",
+      "url": "/?settings=1",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%2305050a'/%3E%3Ccircle cx='256' cy='256' r='130' fill='none' stroke='%2364748b' stroke-width='14'/%3E%3C/svg%3E", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 390 844'%3E%3Crect width='390' height='844' fill='%2305050a'/%3E%3C/svg%3E",
+      "sizes": "390x844",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "ApexQuant mobile app — match predictions list"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 390 844'%3E%3Crect width='390' height='844' fill='%2305050a'/%3E%3C/svg%3E",
+      "sizes": "390x844",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "ApexQuant mobile app — match detail with agent debate"
+    }
+  ]
+}
